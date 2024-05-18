@@ -28,7 +28,7 @@ const AddingShortcut = () => {
           <a
             key={index}
             href={shortcut.url}
-            target="_blank"
+            // target="_blank"
             rel="noopener noreferrer"
             className="relative flex h-[120px] w-[120px] cursor-pointer flex-col items-center justify-center rounded-lg hover:bg-neutral-600"
           >
